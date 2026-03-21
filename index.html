@@ -243,6 +243,32 @@
       h1 { font-size: 1.25rem;}
       .section-title { font-size: 1.05rem;}
     }
+      body {
+    background: linear-gradient(135deg, #fbeffb 0%, #ffe3ed 100%);
+    min-height: 100vh;
+    font-family: 'Quicksand', 'Segoe UI', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    color: #5e366e;
+    margin: 0;
+  }
+
+  .cv-button {
+    display: inline-block;
+    padding: 10px 22px;
+    background: linear-gradient(135deg, #f8bbd0, #f48fb1);
+    color: white;
+    text-decoration: none;
+    border-radius: 999px;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(244, 143, 177, 0.25);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .cv-button:hover {
+    color: white;
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(244, 143, 177, 0.35);
+  }
   </style>
 </head>
 <body>
@@ -353,14 +379,18 @@
     </svg>
 
     <!-- Home -->
-    <div class="text-center my-4 position-relative" style="z-index: 2;">
-      <img src="assets/headPhoto.png" alt="Zhiqun Li Photo" class="profile-img">
-      <h1>Zhiqun Li <span style="font-size:1.1rem; color:#b26fa0;">(Alice Lee)</span></h1>
-      <p style="font-size:1.18rem; color:#8d3c7f;font-weight:400;">
-        2025 Fall Economics PhD Student<br>
-        <span style="color:#7b1fa2;">The Ohio State University</span>
-      </p>
-    </div>
+<div class="text-center my-4 position-relative" style="z-index: 2;">
+  < img src="assets/headPhoto.png" alt="Zhiqun Li Photo" class="profile-img">
+  <h1>Zhiqun Li <span style="font-size:1.1rem; color:#b26fa0;">(Alice Lee)</span></h1>
+  <p style="font-size:1.18rem; color:#8d3c7f;font-weight:400;">
+    2025 Fall Economics PhD Student<br>
+    <span style="color:#7b1fa2;">The Ohio State University</span>
+  </p >
+
+  <p style="margin-top: 14px;">
+    <a href=" " download class="cv-button">Download CV</a >
+  </p >
+</div>
 
     <!-- Gallery Section -->
     <div>
