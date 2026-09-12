@@ -1,6 +1,15 @@
 /* 导入Google字体 - Montserrat和Nunito Sans */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Nunito+Sans:wght@400;600&display=swap");
 
+/* 自定义颜色变量 - 粉色主题 */
+:root {
+  --color-primary: #FADADD; /* 主色调 - 浅粉色 */
+  --color-secondary-1: #D1E8E2; /* 辅助色1 - 浅绿色 */
+  --color-secondary-2: #FFFACD; /* 辅助色2 - 浅黄色 */
+  --color-secondary-3: #E6E6FA; /* 辅助色3 - 浅紫色 */
+  --color-secondary-4: #FF69B4; /* 辅助色4 - 热粉色 */
+}
+
 /* 为所有元素、伪元素初始化Tailwind CSS变量 */
 *,
 :after,
@@ -23,7 +32,7 @@
 :after,
 :before {
   box-sizing: border-box; /* 使用边框盒模型 */
-  border: 0 solid #e5e7eb; /* 初始边框为灰色 */
+  border: 0 solid var(--color-primary); /* 初始边框使用主色调 */
 }
 
 /* 伪元素内容初始化 */
@@ -255,7 +264,7 @@ textarea {
 input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 透明度为100% */
-  color: #d1d5db; /* 占位符颜色为灰色 */
+  color: var(--color-secondary-1); /* 占位符颜色使用辅助色1 */
 }
 
 /* 按钮和按钮角色元素样式 */
