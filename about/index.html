@@ -1,149 +1,149 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <script>
-      document.documentElement.classList.remove("dark"),
-      localStorage.setItem("darkMode", "false")
-    </script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>About - Alice Lee</title>
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav>
-      <a 
-        href="/#experience" 
-        class="nav-link section-link text-text-primary dark:text-text-primary" 
-        data-section="experience"
-      >
-        Education & Experience
-      </a>
+<!doctype html> <!-- HTML 文档类型声明 -->
+<html lang="en"> <!-- HTML 根元素，语言设置为英文 -->
+  <head> <!-- 页面头部，包含元数据和配置 -->
+    <script> <!-- JavaScript 脚本标签 -->
+      document.documentElement.classList.remove("dark"), <!-- 移除深色模式类名 -->
+      localStorage.setItem("darkMode", "false") <!-- 在本地存储中设置深色模式为false -->
+    </script> <!-- 脚本结束 -->
+    <meta charset="UTF-8"> <!-- 指定页面字符编码为UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- 设置视口宽度自适应，初始缩放为1 -->
+    <title>About - Alice Lee</title> <!-- 页面标题 -->
+  </head> <!-- 页面头部结束 -->
+  <body> <!-- 页面主体内容 -->
+    <!-- 导航栏 -->
+    <nav> <!-- 导航栏容器 -->
+      <a <!-- 链接标签 -->
+        href="/#experience" <!-- 链接指向主页的经历部分 -->
+        class="nav-link section-link text-text-primary dark:text-text-primary" <!-- CSS类名：导航链接、分块链接、主文本颜色、深色模式下主文本颜色 -->
+        data-section="experience" <!-- 数据属性：分块标识为experience -->
+      > <!-- 链接开始 -->
+        Education & Experience <!-- 链接文本：教育和经历 -->
+      </a> <!-- 链接结束 -->
       
-      <a 
-        href="/#research" 
-        class="nav-link section-link text-text-primary dark:text-text-primary" 
-        data-section="research"
-      >
-        Research
-      </a>
+      <a <!-- 链接标签 -->
+        href="/#research" <!-- 链接指向主页的研究部分 -->
+        class="nav-link section-link text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+        data-section="research" <!-- 数据属性：分块标识为research -->
+      > <!-- 链接开始 -->
+        Research <!-- 链接文本：研究 -->
+      </a> <!-- 链接结束 -->
       
-      <a 
-        href="/seminar/" 
-        class="nav-link text-text-primary dark:text-text-primary"
-      >
-        Seminar
-      </a>
+      <a <!-- 链接标签 -->
+        href="/seminar/" <!-- 链接指向研讨会页面 -->
+        class="nav-link text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+      > <!-- 链接开始 -->
+        Seminar <!-- 链接文本：研讨会 -->
+      </a> <!-- 链接结束 -->
       
-      <a 
-        href="/resources/" 
-        class="nav-link text-text-primary dark:text-text-primary"
-      >
-        Resources
-      </a>
+      <a <!-- 链接标签 -->
+        href="/resources/" <!-- 链接指向资源页面 -->
+        class="nav-link text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+      > <!-- 链接开始 -->
+        Resources <!-- 链接文本：资源 -->
+      </a> <!-- 链接结束 -->
       
-      <a 
-        href="/blog/" 
-        class="nav-link text-text-primary dark:text-text-primary"
-      >
-        Blog
-      </a>
+      <a <!-- 链接标签 -->
+        href="/blog/" <!-- 链接指向博客页面 -->
+        class="nav-link text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+      > <!-- 链接开始 -->
+        Blog <!-- 链接文本：博客 -->
+      </a> <!-- 链接结束 -->
       
-      <a 
-        href="/#contact" 
-        class="nav-link section-link text-text-primary dark:text-text-primary" 
-        data-section="contact"
-      >
-        Contact
-      </a>
+      <a <!-- 链接标签 -->
+        href="/#contact" <!-- 链接指向主页的联系部分 -->
+        class="nav-link section-link text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+        data-section="contact" <!-- 数据属性：分块标识为contact -->
+      > <!-- 链接开始 -->
+        Contact <!-- 链接文本：联系 -->
+      </a> <!-- 链接结束 -->
       
-      <div 
-        class="flex items-center space-x-4" 
-        data-animation="social"
-      ></div>
-    </nav>
+      <div <!-- 容器 div 元素 -->
+        class="flex items-center space-x-4" <!-- CSS类名：弹性布局、垂直居中、水平间距 -->
+        data-animation="social" <!-- 数据属性：动画标识为social -->
+      ></div> <!-- div 结束 -->
+    </nav> <!-- 导航栏结束 -->
 
-    <!-- Mobile Menu -->
-    <div 
-      id="mobile-menu" 
-      class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg"
-    >
-      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+    <!-- 移动菜单 -->
+    <div <!-- 容器 div 元素 -->
+      id="mobile-menu" <!-- 元素ID：mobile-menu -->
+      class="hidden lg:hidden bg-bg dark:bg-bg shadow-lg" <!-- CSS类名：隐藏、在lg屏幕以上隐藏、背景颜色、深色模式背景、阴影 -->
+    > <!-- div 开始 -->
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3"> <!-- 内部容器，水平填充、上下填充、垂直间距、响应式填充 -->
         
-        <a 
-          href="/#about" 
-          class="nav-link section-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary"
-        >
-          About
-        </a>
+        <a <!-- 链接标签 -->
+          href="/#about" <!-- 链接指向主页的关于部分 -->
+          class="nav-link section-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" <!-- CSS类名：导航链接、分块链接、块级元素、填充、圆角、字体大小、字重、文本颜色 -->
+        > <!-- 链接开始 -->
+          About <!-- 链接文本：关于 -->
+        </a> <!-- 链接结束 -->
         
-        <a 
-          href="/#experience" 
-          class="nav-link section-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" 
-          data-section="experience"
-        >
-          Education & Experience
-        </a>
+        <a <!-- 链接标签 -->
+          href="/#experience" <!-- 链接指向主页的经历部分 -->
+          class="nav-link section-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+          data-section="experience" <!-- 数据属性：分块标识为experience -->
+        > <!-- 链接开始 -->
+          Education & Experience <!-- 链接文本：教育和经历 -->
+        </a> <!-- 链接结束 -->
         
-        <a 
-          href="/#research" 
-          class="nav-link section-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" 
-          data-section="research"
-        >
-          Research
-        </a>
+        <a <!-- 链接标签 -->
+          href="/#research" <!-- 链接指向主页的研究部分 -->
+          class="nav-link section-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+          data-section="research" <!-- 数据属性：分块标识为research -->
+        > <!-- 链接开始 -->
+          Research <!-- 链接文本：研究 -->
+        </a> <!-- 链接结束 -->
         
-        <a 
-          href="/seminar/" 
-          class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary"
-        >
-          Seminar
-        </a>
+        <a <!-- 链接标签 -->
+          href="/seminar/" <!-- 链接指向研讨会页面 -->
+          class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+        > <!-- 链接开始 -->
+          Seminar <!-- 链接文本：研讨会 -->
+        </a> <!-- 链接结束 -->
         
-        <a 
-          href="/resources/" 
-          class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary"
-        >
-          Resources
-        </a>
+        <a <!-- 链接标签 -->
+          href="/resources/" <!-- 链接指向资源页面 -->
+          class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+        > <!-- 链接开始 -->
+          Resources <!-- 链接文本：资源 -->
+        </a> <!-- 链接结束 -->
         
-        <a 
-          href="/blog/" 
-          class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary"
-        >
-          Blog
-        </a>
+        <a <!-- 链接标签 -->
+          href="/blog/" <!-- 链接指向博客页面 -->
+          class="nav-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+        > <!-- 链接开始 -->
+          Blog <!-- 链接文本：博客 -->
+        </a> <!-- 链接结束 -->
         
-        <a 
-          href="/#contact" 
-          class="nav-link section-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" 
-          data-section="contact"
-        >
-          Contact
-        </a>
+        <a <!-- 链接标签 -->
+          href="/#contact" <!-- 链接指向主页的联系部分 -->
+          class="nav-link section-link block px-3 py-2 rounded-md text-base font-medium text-text-primary dark:text-text-primary" <!-- CSS类名 -->
+          data-section="contact" <!-- 数据属性：分块标识为contact -->
+        > <!-- 链接开始 -->
+          Contact <!-- 链接文本：联系 -->
+        </a> <!-- 链接结束 -->
         
-        <div class="flex items-center space-x-4"></div>
-      </div>
-    </div>
+        <div class="flex items-center space-x-4"></div> <!-- 社交媒体容器，弹性布局、垂直居中、水平间距 -->
+      </div> <!-- 内部容器结束 -->
+    </div> <!-- 移动菜单结束 -->
 
-    <!-- Personal Information -->
-    <p class="text-text-secondary dark:text-text-muted mt-1">
-      <i class="fas fa-map-marker-alt mr-2"></i>
-      Columbus, Ohio, USA
-    </p>
+    <!-- 个人信息 -->
+    <p class="text-text-secondary dark:text-text-muted mt-1"> <!-- 段落元素：次级文本颜色、深色模式下柔和文本颜色、上边距 -->
+      <i class="fas fa-map-marker-alt mr-2"></i> <!-- 图标：Font Awesome 地图标记图标、右边距 -->
+      Columbus, Ohio, USA <!-- 文本内容：地址 -->
+    </p> <!-- 段落结束 -->
 
-    <!-- Skills Tags -->
-    <span 
-      class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold"
-    >
-      <!-- Skill Tag 1 -->
-    </span>
+    <!-- 技能标签 -->
+    <span <!-- 行内元素 -->
+      class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibol[...]" <!-- CSS类名：背景颜色、深色模式背景、文本颜色、行内弹性、居中对齐、文本居中、水平填充、垂直填充、最大宽度、最小高度、圆角、字体大小、字重 -->
+    > <!-- span 开始 -->
+      <!-- 技能标签 1 -->
+    </span> <!-- span 结束 -->
     
-    <span 
-      class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibold"
-    >
-      <!-- Skill Tag 2 -->
-    </span>
+    <span <!-- 行内元素 -->
+      class="bg-bg-tertiary dark:bg-bg-tertiary text-text-primary inline-flex items-center justify-center text-center px-3 py-2 max-w-[11rem] min-h-[2.75rem] rounded-xl text-xs sm:text-sm font-semibol[...]" <!-- CSS类名 -->
+    > <!-- span 开始 -->
+      <!-- 技能标签 2 -->
+    </span> <!-- span 结束 -->
 
-  </body>
-</html>
+  </body> <!-- 页面主体结束 -->
+</html> <!-- HTML 文档结束 -->
