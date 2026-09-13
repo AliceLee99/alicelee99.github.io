@@ -41,6 +41,13 @@
   opacity: 1;
 }
 
+/* Keep the welcome screen free of generated line and wireframe decorations. */
+#home > .morphing-shapes,
+#home .diagonal-line,
+#home .spline-curve {
+  display: none !important;
+}
+
 /* Keep foreground copy readable against the lighter photography treatment. */
 #home .hero-text-accent {
   color: var(--hero-text-secondary);
